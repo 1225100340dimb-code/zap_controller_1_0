@@ -21,7 +21,7 @@ class _PantallaBienvenidaState extends State<PantallaBienvenida> {
       if (!mounted) return;
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const PantallaPrincipal()),
+        MaterialPageRoute(builder: (_) => const PantallaPrincipalZap()),
       );
     });
   }
